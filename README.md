@@ -1,8 +1,20 @@
-# tiny-chess-01 — a 4 KB alpha-beta chess engine
+# tiny-chess-01
 
-A complete chess engine in a single `main.py` of **4,092 bytes**
-(limit 4,096). Python 3.13 standard library only. It reads, imports
-or execs no other file in this repository.
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/chenrui012-sketch/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/chenrui012-sketch/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+
+A complete chess engine in a single `main.py` of **4,092 bytes** (limit 4,096). Python 3.13 standard library only. It reads, imports or execs no other file in this repository.
+
+## Run it
+
+```sh
+MAKEFUN_ENV_URL=<env-url> python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=qeryy9q8&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
 
 ## How it works
 
@@ -62,9 +74,3 @@ The practice floor to enter the final is 1,154 Elo.
 - `main.py` — the whole engine (4,092 bytes).
 - `LICENSE` — MIT.
 - `.makefun/owner.json` — owner wallet for the bounty.
-
-## Run it
-
-Set `MAKEFUN_ENV_URL` to the environment URL and run
-`python3 main.py`. No other setup; no dependencies beyond the
-standard library.
